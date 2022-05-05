@@ -29,21 +29,21 @@ main {
 
 .box-img1 {
   height: 150px;
-  background-image: url(img9/flow01.png);
+  background-image: url(img10/flow01.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .box-img2 {
   height: 150px;
-  background-image: url(img9/flow02.png);
+  background-image: url(img10/flow02.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .box-img3 {
   height: 150px;
-  background-image: url(img9/flow03.png);
+  background-image: url(img10/flow03.png);
   background-position: bottom;
   background-size: cover;
 }
@@ -63,4 +63,22 @@ main {
 footer {
   height: 50px;
   background-color: #AAAAAA;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .box3 {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .box3:last-child {
+    width: 90%;
+    margin: 20px auto;
+  }
+
 }
